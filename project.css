@@ -1,0 +1,163 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+
+body {
+ overflow-x: hidden;
+}
+.menu ul{
+ display: flex;
+ padding-left: 12%;
+ margin-bottom:8px;
+
+}
+
+ul li {
+ list-style: none;
+ margin-left: 60px;
+ margin-top: 40px;
+ font-size: 15px;
+}
+
+ul li a {
+ color: black;
+ font-family: Arial;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+ul :hover {
+ color: white;
+ background-color: #555555;
+
+}
+
+
+
+#slider{ 
+   overflow: hidden;
+   text-align:initial;
+ margin: 0%;
+
+}
+
+#slider figure{
+   position: relative;
+   width:500%;
+   margin:0;
+   left:0;
+   animation:20s slider infinite;
+}
+
+#slider figure img{
+   float: left;
+   width:20%;
+}
+@keyframes slider {
+   0%{
+      left:0;
+   }
+
+   20%{
+      left:0;
+   }
+
+     25%{
+      left:-100%;
+   }
+
+     45%{
+      left:-100%;
+   }
+
+     50%{
+      left:-200%;
+   }
+
+    70%{
+      left:-200%;
+   }
+
+   75%{
+      left:-300;
+   }
+
+    95%{
+      left:-300%;
+   }
+
+100%{
+      left:-400%;
+   }
+  
+}
+
+
+.text{
+font-size: x-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+margin-top: 2%;
+}
+
+.rooms{
+   display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap:20px;
+
+}
+
+.work { 
+   background-color:rosybrown;
+   display: flex;
+ gap: 14%;
+ padding: 20px;
+ flex-direction: row;
+ justify-content: center;
+background-size: 30px;
+font-size:larger;
+margin-top: 20px;
+}
+
+.endpart{
+   display: flex;
+   gap: 210px;
+   justify-content: center;
+   margin-top: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hom{
+   color:blue;
+   text-align: center;
+
+}
+.pro{
+   color: blue;
+   text-align: center;
+
+}
+.con{
+   color: blue;
+   text-align: center;
+}
+
+.endpart button{
+   background-color:cornflowerblue;
+   color: aliceblue;
+   padding: 10px;
+   border-radius: 10px;
+   width: 150px;
+}
+button:hover{
+   background-color: blueviolet;
+}
+
+@media (max-width: 600px) {
+   #slider { font-size: 10px;}
+
+   .menu{ font-size: 10px;}
+}

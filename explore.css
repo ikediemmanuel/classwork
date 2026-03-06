@@ -1,0 +1,153 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+@media only screen and (max-width:620px){
+  /*for mobile phones: */.container, .menu, .image, .secondsection, .lastsection {
+    width: 100%;
+  }
+}
+  
+
+body {
+ overflow-x: hidden;
+}
+.container{
+ display: flex;
+ padding: 10px;
+ text-align: center;
+ 
+}
+
+.name{
+font-size: 20px;
+font-weight: 700;
+margin: 30px;
+color: royalblue;
+}
+
+.menu ul{
+ display: flex;
+ padding: 20px;
+ gap: 10px;
+}
+
+ul li {
+ list-style: none;
+ margin-left: 100px;
+ margin-top: 20px;
+ font-size: 15px;
+}
+
+ul li a {
+ color: black;
+ font-family: Arial;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+ul :hover{
+ color: royalblue;
+}
+
+.image{
+ background-image: url(image/explore1.jpg);
+ background-size: cover;
+ padding: 300px;
+ text-align: center;
+ height: 40px;
+
+}
+
+.image p{
+font-size: 20px;
+font-weight: 700;
+}
+
+.image button{
+ background-color: royalblue;
+ padding: 20px;
+ border-radius: 10px;
+ color: white;
+}
+.success {
+ font-size: 100px;
+
+}
+
+.secondsection{
+ display: flex;
+ padding-left: 50px;
+}
+
+ .secondtext p{
+ font-size: 20px;
+}
+
+.me{
+  padding: 20px;
+ margin: 35px;
+ color: white;
+ background-color: black;
+ border-radius: 20px;
+}
+
+.me:hover {
+ background-color: rebeccapurple;
+}
+
+.lastsection {
+ display: flex;
+ gap: 20%;
+ background-color: rgb(51, 119, 146);
+}
+
+.contacts{
+ margin: 30px;
+ font-size: 20px;
+}
+
+.form {
+ margin: 30px;
+}
+
+#myname{
+ padding: 8px;
+ border-radius: 8px;
+ width: 19rem;
+}
+
+#email{
+ padding: 8px;
+ border-radius: 8px;
+ width: 19rem;
+}
+
+#subject{
+ padding: 8px;
+ border-radius: 8px;
+ width: 19rem;
+}
+
+#message{
+ padding: 50px;
+ border-radius: 8px;
+ width: 19rem;
+ 
+}
+
+.form button{
+ padding: 15px;
+ margin-left: 70%;
+ width: 8rem;
+ color:white;
+ background-color: black;
+ border-radius: 5px;
+
+}
+
+.middlesection{
+  background-image: url(image/blue3.jpg);
+  background-size: cover;
+}

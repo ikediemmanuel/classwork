@@ -1,0 +1,109 @@
+*{padding: 0;
+  margin: 0;
+}
+  .body {
+  overflow: hidden;
+}
+.navbarSupportedContent{
+align-items: flex-end;
+align-self: flex-end;
+align-content: flex-end;
+background-color: blue;
+}
+.navbar-toggler{
+  padding: 0.15rem 0.2rem;
+}
+.name{
+font-size: 20px;
+font-weight: 700;
+margin: 30px;
+color: royalblue;
+}
+
+
+#image1{
+ background-image: url(image/explore.jpg);
+ background-size: cover;
+ text-align: center;
+ height: 400px;
+ width: 100%;
+}
+
+
+.imgtex2 button{
+ background-color: rgb(10, 58, 202);
+ padding: 10px;
+ border-radius: 10px;
+ color: white;
+}
+
+.imgtex2 h1{
+  font-weight:bolder ;
+}
+.me{
+   background-color: rgb(10, 58, 202);
+ padding: 10px;
+ border-radius: 10px;
+ color: white;
+}
+.fmbtn button{
+  background-color: rgb(10, 58, 202);
+ padding: 10px;
+ border-radius: 10px;
+ color: white;
+ padding-bottom: 3px;
+}
+.fmbtn{
+
+}
+#lastsectionn {
+ display: flex;
+ width: 100%;
+ gap: 20%;
+ background-color: rgb(51, 119, 146);
+ margin: 60px;
+}
+
+#contacts{
+ margin: 30px;
+ font-size: 20px;
+}
+
+#myname{
+ padding: 8px;
+ border-radius: 8px;
+ width: 100%;
+}
+
+#email{
+ padding: 8px;
+ border-radius: 8px;
+ width: 100%;
+}
+
+#subject{
+ padding: 8px;
+ border-radius: 8px;
+ width: 100%;
+}
+
+#message{
+ padding: 50px;
+ border-radius: 8px;
+ width: 100%;
+ 
+}
+
+.form button{
+  margin-top: px;
+ padding: 105px;
+ width: 8rem;
+ color:white;
+ border-radius: 5px;
+}
+.form-group{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
